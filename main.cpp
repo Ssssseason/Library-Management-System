@@ -15,22 +15,11 @@
 #include <stdlib.h>
 using namespace std;
 
-//static bool createConnection(QString UN, QString PW) {
-//  QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-//  db.setHostName("localhost");
-//  db.setDatabaseName("jyx3150102305");
-//  db.setUserName(UN);
-//  db.setPassword(PW);
-//  if (!db.open())
-//    return false;
-//  return true;
-//}
-
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
-    if(!createConnection("guest", "")) {
+    if(!createConnection("root", "5183685")) {
         qDebug() << "Error!";
         return 1;
     }

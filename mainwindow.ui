@@ -67,7 +67,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>当前为游客</string>
+     <string>guest</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_quit">
@@ -83,6 +83,264 @@
      <string>退出</string>
     </property>
    </widget>
+   <widget class="QTabWidget" name="tabWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>761</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>图书查询</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_year1_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>110</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_author_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>80</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>作者</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_price2_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>110</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_year_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>90</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>年份</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_between2_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>110</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_press_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>20</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>出版社</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_type_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>150</y>
+        <width>87</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_between1_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>20</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>书名</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_adde_2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>150</y>
+        <width>87</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_category_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_book_select_2">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>150</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_year2_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>110</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_price_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>80</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>价格</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_title_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>50</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_author_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>110</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_price1_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>110</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_category_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>20</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>类别</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_press_2">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>50</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <zorder>lineEdit_year1_2</zorder>
+     <zorder>label_author_2</zorder>
+     <zorder>lineEdit_price2_2</zorder>
+     <zorder>label_year_2</zorder>
+     <zorder>label_between2_2</zorder>
+     <zorder>label_press_2</zorder>
+     <zorder>comboBox_type_2</zorder>
+     <zorder>label_between1_2</zorder>
+     <zorder>label_title_2</zorder>
+     <zorder>comboBox_adde_2</zorder>
+     <zorder>lineEdit_category_2</zorder>
+     <zorder>pushButton_book_select_2</zorder>
+     <zorder>lineEdit_year2_2</zorder>
+     <zorder>label_price_2</zorder>
+     <zorder>lineEdit_title_2</zorder>
+     <zorder>lineEdit_author_2</zorder>
+     <zorder>lineEdit_price1_2</zorder>
+     <zorder>label_category_2</zorder>
+     <zorder>lineEdit_press_2</zorder>
+     <zorder>tabWidget</zorder>
+     <zorder>tabWidget</zorder>
+     <zorder>tabWidget</zorder>
+     <zorder>tabWidget</zorder>
+    </widget>
+   </widget>
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
@@ -96,7 +354,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;图书查询&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab_select">
      <property name="toolTip">
@@ -295,7 +553,7 @@
      <widget class="QPushButton" name="pushButton_book_select">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>630</x>
         <y>160</y>
         <width>93</width>
         <height>28</height>
@@ -305,11 +563,67 @@
        <string>查询</string>
       </property>
      </widget>
+     <widget class="QComboBox" name="comboBox_type">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>87</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_adde">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>170</y>
+        <width>87</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_insert">
      <attribute name="title">
       <string>图书入库</string>
      </attribute>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>561</width>
+        <height>141</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_openfile">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>60</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开文件</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_insert">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>入库</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_borrow">
      <attribute name="title">
@@ -361,6 +675,19 @@
        </rect>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_borrow">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>120</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>确定</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_return">
      <attribute name="title">
@@ -389,7 +716,7 @@
        <string>书号</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_borrow_cno_2">
+     <widget class="QLineEdit" name="lineEdit_return_cno">
       <property name="geometry">
        <rect>
         <x>150</x>
@@ -410,6 +737,19 @@
       </property>
       <property name="text">
        <string>借书证卡号</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_return">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>120</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>确定</string>
       </property>
      </widget>
     </widget>
@@ -440,11 +780,11 @@
        <string>借书证卡号</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pushButton_deletecard">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>140</y>
+        <x>140</x>
+        <y>130</y>
         <width>93</width>
         <height>28</height>
        </rect>
@@ -453,11 +793,11 @@
        <string>删除</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="pushButton_addcard">
       <property name="geometry">
        <rect>
-        <x>180</x>
-        <y>140</y>
+        <x>290</x>
+        <y>130</y>
         <width>93</width>
         <height>28</height>
        </rect>
@@ -468,6 +808,14 @@
      </widget>
     </widget>
    </widget>
+   <zorder>tabWidget_2</zorder>
+   <zorder>lineEdit_UN</zorder>
+   <zorder>lineEdit_PW</zorder>
+   <zorder>pushButton_login</zorder>
+   <zorder>tableView</zorder>
+   <zorder>label_role</zorder>
+   <zorder>pushButton_quit</zorder>
+   <zorder>tabWidget</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
